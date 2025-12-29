@@ -1,0 +1,372 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_aNjRGX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; justify-content: center; align-items: center;\">\n  <p class=\"urgency-text color-inverse urgency-text--single-image\">\n    <strong>🔥 Más de 10.000 ventas | Producto mejor valorado</strong>\n  </p>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "liquid_yR7RNP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .custom-rating {\n    display: flex;\n    align-items: center;\n    font-family: 'Segoe UI', Roboto, sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    color: #222;\n    gap: 6px;\n  }\n\n  .custom-rating svg {\n    width: 16px;\n    height: 16px;\n    fill: #f6c104; /* jaune doré */\n  }\n\n  .custom-rating strong {\n    margin-left: 4px;\n  }\n\n  .custom-rating .rating-text {\n    margin-left: 4px;\n    color: #444;\n  }\n\n  @media screen and (max-width: 480px) {\n    .custom-rating {\n      font-size: 13px;\n      gap: 4px;\n    }\n\n    .custom-rating svg {\n      width: 14px;\n      height: 14px;\n    }\n  }\n</style>\n\n<div class=\"custom-rating\">\n  {% for i in (1..5) %}\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n      <path d=\"M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 \n        171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 \n        113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 \n        128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 \n        12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 \n        7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z\"/>\n    </svg>\n  {% endfor %}\n  <span class=\"rating-text\"><strong>4.8</strong> | 12,647+ Opiniones de confianza</span>\n</div>"
+          }
+        },
+        "liquid_VEhiqW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: inline-flex; align-items: center; background-color: #fff0f0; padding: 4px 10px; border-radius: 9999px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; color: #c40000;\">\n  <div style=\"animation: blink 1s infinite; margin-right: 6px;\">●</div>\n  <div>¡Quedan solo: 7 cápsulas!</div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0; }\n}\n</style>"
+          }
+        },
+        "liquid_WW47pi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Charge la police Material Symbols (obligatoire une seule fois sur ta boutique) -->\n<link href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" rel=\"stylesheet\">\n\n<ul style=\"list-style: none; padding: 0; margin: 0;\">\n  <li style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n    <span class=\"material-symbols-outlined\" style=\"font-size: 18px; color: #bd4d25; margin-right: 8px;\">\n      verified\n    </span>\n    <span>Reduce significativamente la caída del cabello</span>\n  </li>\n  <li style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n    <span class=\"material-symbols-outlined\" style=\"font-size: 18px; color: #bd4d25; margin-right: 8px;\">\n      verified\n    </span>\n    <span>Favorece un crecimiento más grueso y largo del cabello</span>\n  </li>\n  <li style=\"display: flex; align-items: center;\">\n    <span class=\"material-symbols-outlined\" style=\"font-size: 18px; color: #bd4d25; margin-right: 8px;\">\n      verified\n    </span>\n    <span>Clínicamente probado para resultados duraderos</span>\n  </li>\n</ul>"
+          }
+        },
+        "kaching_bundles_app_block_GwcqVQ": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "lumoria-capsulas-de-aceite-de-semilla-de-calabaza"
+          }
+        },
+        "image_PkiPTJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/offer.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "liquid_MPPEPe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center; font-family: 'Poppins', sans-serif;\">\n  <div id=\"countdown\" style=\"font-size: 32px; font-weight: 700; color: #1a1a1a; letter-spacing: 1px;\"></div>\n  <div style=\"display: flex; justify-content: center; gap: 36px; margin-top: 4px; font-size: 14px; color: #888888;\">\n    <div>Días</div>\n    <div>Hrs</div>\n    <div>Min</div>\n    <div>Seg</div>\n  </div>\n</div>\n\n<script>\n  function startCountdown(duration) {\n    let timer = duration;\n\n    const countdownEl = document.getElementById('countdown');\n\n    setInterval(() => {\n      const days = Math.floor(timer / (60 * 60 * 24));\n      const hours = Math.floor((timer % (60 * 60 * 24)) / 3600);\n      const minutes = Math.floor((timer % 3600) / 60);\n      const seconds = timer % 60;\n\n      countdownEl.innerHTML =\n        (days < 10 ? \"0\" + days : days) + \":\" +\n        (hours < 10 ? \"0\" + hours : hours) + \":\" +\n        (minutes < 10 ? \"0\" + minutes : minutes) + \":\" +\n        (seconds < 10 ? \"0\" + seconds : seconds);\n\n      timer--;\n\n      if (timer < 0) {\n        timer = duration;\n      }\n    }, 1000);\n  }\n\n  // 17 minutes = 1020 seconds\n  startCountdown(1020);\n</script>"
+          }
+        },
+        "buy_buttons_x3BD6E": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#bd4d25",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_CNaxQp": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 15px; background-color: #fdf8ec; border: 2px dashed #8b5e3c; border-radius: 12px; padding: 16px 20px; max-width: 600px; margin: 0 auto;\">\n  <div style=\"flex-shrink: 0;\">\n    <img src=\"https://i.hizliresim.com/a0c8xe3.png\" alt=\"Garantía de devolución\" style=\"width: 60px; height: auto;\">\n  </div>\n  <div>\n    <h3 style=\"margin: 0 0 6px 0; font-size: 16px; font-weight: 700; color: #3c2f21;\">\n      Garantía de Reembolso del 100%\n    </h3>\n    <p style=\"margin: 0; font-size: 14px; color: #4e4e4e;\">\n      Confiamos tanto en la calidad de nuestros productos que, si no estás satisfecho, ¡te devolvemos el dinero!\n    </p>\n  </div>\n</div>"
+          }
+        },
+        "separator_FEKayr": {
+          "type": "separator",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_aNjRGX",
+        "title",
+        "liquid_yR7RNP",
+        "liquid_VEhiqW",
+        "liquid_WW47pi",
+        "kaching_bundles_app_block_GwcqVQ",
+        "image_PkiPTJ",
+        "liquid_MPPEPe",
+        "buy_buttons_x3BD6E",
+        "liquid_CNaxQp",
+        "separator_FEKayr"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 65,
+        "desktop_media_layout": "grid",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3.5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_html_ACa3TF": {
+      "type": "custom-html",
+      "custom_css": [],
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<div class=\"carousel-container\">\n  <h2 class=\"carousel-header\">Opiniones destacadas de clientes</h2>\n\n  <div class=\"cr-track\" id=\"carousel\">\n    <div class=\"cr-slide\">\n      <div class=\"cr-card\">\n        <div class=\"cr-text\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/320x400_1.jpg?v=1751561827\" alt=\"Anna D.\" class=\"cr-img\">\n          <p>“Al principio era escéptica, pero tras usar este producto vi resultados tras cuatro semanas de uso constante. Es el mejor bloqueador natural de DHT para la caída del cabello que he probado.”</p>\n        </div>\n        <hr class=\"cr-separator\">\n        <p class=\"cr-author\">Anna D. – <em>Compradora verificada</em></p>\n        <div class=\"cr-stars\">★★★★★</div>\n      </div>\n    </div>\n\n    <div class=\"cr-slide\">\n      <div class=\"cr-card\">\n        <div class=\"cr-text\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/320x400.webp?v=1751561827\" alt=\"Jane M.\" class=\"cr-img\">\n          <p>“Al principio pensé que era una estafa, pero después de usarlo durante cuatro meses, logré que me creciera todo el cabello de nuevo. ¡Pensé que nunca volvería a suceder! Este producto me salvó. Lo amo.”</p>\n        </div>\n        <hr class=\"cr-separator\">\n        <p class=\"cr-author\">Jane M. – <em>Compradora verificada</em></p>\n        <div class=\"cr-stars\">★★★★★</div>\n      </div>\n    </div>\n\n    <div class=\"cr-slide\">\n      <div class=\"cr-card\">\n        <div class=\"cr-text\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/images.jpg?v=1751561827\" alt=\"Barbie S.\" class=\"cr-img\">\n          <p>“Este producto es muy bueno y fácil de tomar. No tiene sabor desagradable ni efectos secundarios. ¡Realmente funciona! Mi cabello se ve más fuerte, con más volumen y brillo, y con menos caída desde que empecé a usarlo.”</p>\n        </div>\n        <hr class=\"cr-separator\">\n        <p class=\"cr-author\">Barbie S. – <em>Compradora verificada</em></p>\n        <div class=\"cr-stars\">★★★★★</div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"cr-dots\">\n    <span class=\"cr-dot active\"></span>\n    <span class=\"cr-dot\"></span>\n    <span class=\"cr-dot\"></span>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_html_agkhmC": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<!-- SECTION Real Customers, Real Results -->\n<div class=\"customer-results-section\">\n  <!-- Title -->\n  <div class=\"section-title\">\n    <h1>Real Customers,<br><span style=\"color: #000000;\">Real Results</span>\n</h1>\n  </div>\n\n  <!-- CAROUSEL -->\n  <div class=\"testimonial-carousel\">\n    <!-- Flèche gauche -->\n    <button type=\"button\" class=\"carousel-nav-btn prev-btn\" onclick=\"prevSlide()\" aria-label=\"Previous slide\">\n      <svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M15 18l-6-6 6-6\"></path>\n      </svg>\n    </button>\n\n    <!-- Slides -->\n    <div class=\"carousel-wrapper\">\n      <div class=\"carousel-track\" id=\"carousel-track\">\n        <!-- Slide 1 -->\n        <div class=\"carousel-slide active\">\n          <div class=\"slide-content\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/avis1.jpg?v=1752690729\" alt=\"Avis client 1\" loading=\"lazy\">\n          </div>\n        </div>\n\n        <!-- Slide 2 -->\n        <div class=\"carousel-slide\">\n          <div class=\"slide-content\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/Avis2.png?v=1752690730\" alt=\"Avis client 2\" loading=\"lazy\">\n          </div>\n        </div>\n\n        <!-- Slide 3 -->\n        <div class=\"carousel-slide\">\n          <div class=\"slide-content\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/Avis3.png?v=1752690730\" alt=\"Avis client 3\" loading=\"lazy\">\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <!-- Flèche droite -->\n    <button type=\"button\" class=\"carousel-nav-btn next-btn\" onclick=\"nextSlide()\" aria-label=\"Next slide\">\n      <svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M9 18l6-6-6-6\"></path>\n      </svg>\n    </button>\n  </div>\n\n  <!-- Disclaimer -->\n  <div class=\"disclaimer\">\n    <p>* Results may vary</p>\n  </div>\n\n  <!-- Clinical Study Results -->\n  <div class=\"clinical-results\">\n    <div class=\"results-header\">\n      <h2>Clinical Study Results</h2>\n      <h1 style=\"color: #001C72;\">After 21 Days</h1>\n    </div>\n\n    <div class=\"stats-container\">\n      <div class=\"stat-item\">\n        <div class=\"stat-number\">96%</div>\n        <div class=\"stat-description\"><p><strong>See visible results</strong> from the <strong>first use</strong></p></div>\n      </div>\n      <div class=\"stat-item\">\n        <div class=\"stat-number\">92%</div>\n        <div class=\"stat-description\"><p>Report <strong>long-term firm</strong> and <strong>lifted skin</strong></p></div>\n      </div>\n      <div class=\"stat-item\">\n        <div class=\"stat-number\">90%</div>\n        <div class=\"stat-description\"><p>Noticed a <strong>significant reduction</strong> in double chin after 21 days</p></div>\n      </div>\n    </div>\n\n    <div class=\"trial-info\">\n      <p>*Data from clinical trials: 79 participants after 21 days</p>\n    </div>\n\n    <div class=\"cta-container\">\n      <button class=\"cta-button\"><p>Grab My Masks</p></button>\n    </div>\n  </div>\n</div>\n\n<!-- STYLES -->\n<style>\n.customer-results-section {\n  padding: 60px 20px;\n  max-width: 1200px;\n  margin: 0 auto;\n  background: #f8f9fa;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n}\n\n.section-title {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.section-title h1 {\n  font-size: 2.5rem;\n  font-weight: 700;\n  line-height: 1.2;\n  margin: 0;\n  color: #001C72;\n}\n\n/* Carousel Base */\n.testimonial-carousel {\n  position: relative;\n  max-width: 700px;\n  margin: 0 auto 60px;\n}\n\n.carousel-wrapper {\n  overflow: hidden;\n  border-radius: 20px;\n  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);\n}\n\n.carousel-track {\n  display: flex;\n  transition: transform 0.5s ease;\n}\n\n.carousel-slide {\n  flex: 0 0 100%;\n}\n\n.slide-content {\n  background: #fff;\n  padding: 10px;\n  border-radius: 16px;\n}\n\n.slide-content img {\n  width: 100%;\n  max-height: 700px;\n  object-fit: cover;\n  border-radius: 12px;\n}\n\n/* Navigation Buttons */\n.carousel-nav-btn {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  background: rgba(0, 0, 0, 0.7);\n  color: white;\n  border: none;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  z-index: 2;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.carousel-nav-btn:hover {\n  background: rgba(0, 0, 0, 0.9);\n}\n\n.prev-btn {\n  left: 10px;\n}\n\n.next-btn {\n  right: 10px;\n}\n\n/* Text + Study */\n.disclaimer {\n  text-align: center;\n  margin-top: 20px;\n  font-style: italic;\n  color: #666;\n}\n\n.clinical-results {\n  background: white;\n  padding: 50px 30px;\n  border-radius: 20px;\n  box-shadow: 0 10px 25px rgba(0,0,0,0.1);\n  margin-top: 60px;\n}\n\n.results-header {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.results-header h2 {\n  font-size: 1.8rem;\n  color: #000;\n}\n\n.results-header h1 {\n  font-size: 2.2rem;\n  margin-top: 5px;\n}\n\n.stats-container {\n  display: flex;\n  flex-direction: column;\n  gap: 25px;\n  max-width: 600px;\n  margin: 0 auto;\n}\n\n.stat-item {\n  display: flex;\n  align-items: flex-start;\n  gap: 20px;\n}\n\n.stat-number {\n  font-size: 3rem;\n  font-weight: 900;\n  color: #001C72;\n  min-width: 100px;\n}\n\n.stat-description p {\n  font-size: 1.1rem;\n  color: #333;\n  margin: 0;\n}\n\n.trial-info {\n  text-align: center;\n  margin: 30px 0;\n  color: #666;\n}\n\n.cta-container {\n  text-align: center;\n  margin-top: 30px;\n}\n\n.cta-button {\n  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);\n  color: white;\n  border: none;\n  padding: 16px 40px;\n  border-radius: 50px;\n  font-size: 1.2rem;\n  font-weight: 700;\n  cursor: pointer;\n  box-shadow: 0 8px 20px rgba(40, 167, 69, 0.3);\n  text-transform: uppercase;\n}\n\n.cta-button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 12px 30px rgba(40, 167, 69, 0.4);\n}\n\n/* Responsive */\n@media (max-width: 768px) {\n  .slide-content img {\n    max-height: 450px;\n  }\n\n  .stat-item {\n    flex-direction: column;\n    text-align: center;\n  }\n\n  .stat-number {\n    font-size: 2.5rem;\n    min-width: auto;\n  }\n\n  .stat-description {\n    padding-top: 10px;\n  }\n}\n</style>\n\n<!-- SCRIPT -->\n<script>\nlet currentSlide = 0;\nconst totalSlides = 3;\n\nfunction updateCarousel() {\n  const track = document.getElementById('carousel-track');\n  const translateX = -currentSlide * 100;\n  track.style.transform = `translateX(${translateX}%)`;\n}\n\nfunction nextSlide() {\n  if (currentSlide < totalSlides - 1) {\n    currentSlide++;\n    updateCarousel();\n  }\n}\n\nfunction prevSlide() {\n  if (currentSlide > 0) {\n    currentSlide--;\n    updateCarousel();\n  }\n}\n\ndocument.addEventListener('DOMContentLoaded', function () {\n  updateCarousel();\n});\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_xRjiAb": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/gyrtsdrify.jpg?v=1751664310\"\n     alt=\"Antes y después Lumoria\"\n     style=\"width: 100%; border-radius: 12px;\" />",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_Ur6bp9": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h2 style=\"font-size: 1.4rem; font-weight: 800; text-align: center;\">\n  ¡Detén la caída del cabello con cápsulas fáciles de tragar!\n</h2>\n<p style=\"text-align: center; font-size: 1rem;\">\n  <strong>Si no detienes</strong> el adelgazamiento y la caída del cabello, <strong>seguirá empeorando</strong>. \n  Nuestro aceite de semilla de calabaza y las cápsulas de saw palmetto son \n  <strong>la mezcla perfecta de ingredientes naturales</strong> para <strong>proteger</strong> tu cabello y \n  <strong>ayudarte a sentirte joven y hermosa nuevamente</strong>.\n</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_yFCh7W": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div style=\"text-align: center;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/salem.png?v=1751665956\" \n    alt=\"Resultados Cabello\" \n    style=\"max-width: 100%; height: auto; border-radius: 1.2rem;\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_UaD3ey": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');\n.replica-warning {\n  font-family: 'Poppins', sans-serif;\n  text-align: center;\n  padding: 0.5rem 1rem;\n  color: #1a1a1a;\n}\n.replica-warning h2 {\n  font-size: 1.6rem;\n  font-weight: 700;\n  margin: 0 0 0.3rem;\n  line-height: 1.4;\n}\n.replica-warning .orange {\n  color: #cc4b1e;\n}\n.replica-warning p {\n  font-size: 1rem;\n  line-height: 1.7;\n  max-width: 90%;\n  margin: 0 auto;\n}\n.replica-warning strong {\n  font-weight: 600;\n}\n</style>\n\n<div class=\"replica-warning\">\n  <h2>Beware of <span class=\"orange\">Dangerous</span><br>Replicas</h2>\n  <p>\n    Últimamente, <strong>varios revendedores sospechosos</strong> han copiado nuestro producto y venden cápsulas de semilla de calabaza <strong>de baja calidad y diluidas</strong> que <strong>no funcionan</strong>. Elige la fórmula <strong>auténtica, pura y clínicamente comprobada</strong> que <strong>realmente detiene la caída del cabello en mechones</strong>.\n  </p>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_VCVdWN": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"comparison-section\">\n  <h2 class=\"comparison-title\">¿Por qué elegir Lumoria™?</h2>\n  <table class=\"comparison-table\">\n    <thead>\n      <tr>\n        <th></th>\n        <th class=\"brand\">Lumoria™</th>\n        <th>Otros</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>100% natural</td>\n        <td class=\"check\">✔</td>\n        <td class=\"cross\">✘</td>\n      </tr>\n      <tr>\n        <td>Bloqueador de DHT</td>\n        <td class=\"check\">✔</td>\n        <td class=\"cross\">✘</td>\n      </tr>\n      <tr>\n        <td>Sin efectos secundarios</td>\n        <td class=\"check\">✔</td>\n        <td class=\"cross\">✘</td>\n      </tr>\n      <tr>\n        <td>Resultados visibles sin esfuerzo</td>\n        <td class=\"check\">✔</td>\n        <td class=\"cross\">✘</td>\n      </tr>\n      <tr>\n        <td>Precio accesible</td>\n        <td class=\"check\">✔</td>\n        <td class=\"cross\">✘</td>\n      </tr>\n      <tr>\n        <td>Resultados duraderos</td>\n        <td class=\"check\">✔</td>\n        <td class=\"cross\">✘</td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_prUmae": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_fbhpFr": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"testimonial-container\">\n  <div class=\"testimonial-slider\">\n    <!-- Avis 1 -->\n    <div class=\"testimonial-slide\">\n      <div class=\"testimonial-box\">\n        <div class=\"testimonial-img-container\">\n          <img class=\"testimonial-img\" src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/1738031295957-605063516.jpg?v=1751668656\" alt=\"Veronica S.\">\n        </div>\n        <div class=\"testimonial-body\">\n          <div class=\"quote-bubble\">❞</div>\n          <div class=\"stars\">★★★★★</div>\n          <h3 class=\"testimonial-title\">100% Lo Recomiendo</h3>\n          <p class=\"testimonial-text\">\n            \"He luchado durante años con el adelgazamiento del cabello, pero después de solo 2 meses tomando estas cápsulas, mi cabello se siente más grueso y se ve saludable por primera vez en años.\"\n          </p>\n          <hr class=\"testimonial-divider\">\n          <p class=\"testimonial-author\"><strong>Veronica S. ~ Cliente verificada</strong></p>\n        </div>\n      </div>\n    </div>\n\n    <!-- Avis 2 -->\n    <div class=\"testimonial-slide\">\n      <div class=\"testimonial-box\">\n        <div class=\"testimonial-img-container\">\n          <img class=\"testimonial-img\" src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/1738031235941-920229753.jpg?v=1751668656\" alt=\"Aria B.\">\n        </div>\n        <div class=\"testimonial-body\">\n          <div class=\"quote-bubble\">❞</div>\n          <div class=\"stars\">★★★★★</div>\n          <h3 class=\"testimonial-title\">Funcionó Perfectamente Para Mí</h3>\n          <p class=\"testimonial-text\">\n            \"Al principio era escéptica, pero después de usarlas de forma constante, mi cabello está visiblemente más lleno y mi cuero cabelludo se siente más saludable. ¡Mi estilista notó la diferencia!\"\n          </p>\n          <hr class=\"testimonial-divider\">\n          <p class=\"testimonial-author\"><strong>Aria B. ~ Cliente verificada</strong></p>\n        </div>\n      </div>\n    </div>\n\n    <!-- Avis 3 -->\n    <div class=\"testimonial-slide\">\n      <div class=\"testimonial-box\">\n        <div class=\"testimonial-img-container\">\n          <img class=\"testimonial-img\" src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/1738031254035-863494521.jpg?v=1751668656\" alt=\"Kourtney N.\">\n        </div>\n        <div class=\"testimonial-body\">\n          <div class=\"quote-bubble\">❞</div>\n          <div class=\"stars\">★★★★★</div>\n          <h3 class=\"testimonial-title\">Funciona Muy Bien</h3>\n          <p class=\"testimonial-text\">\n            \"Perder cabello me hacía sentir cohibida, pero después de usar esto durante un mes, veo que están creciendo nuevos cabellos. ¡Y es tan fácil de tomar también!\"\n          </p>\n          <hr class=\"testimonial-divider\">\n          <p class=\"testimonial-author\"><strong>Kourtney N. ~ Cliente verificada</strong></p>\n        </div>\n      </div>\n    </div>\n\n    <!-- Avis 4 -->\n    <div class=\"testimonial-slide\">\n      <div class=\"testimonial-box\">\n        <div class=\"testimonial-img-container\">\n          <img class=\"testimonial-img\" src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/1738031273414-746535138.jpg?v=1751668656\" alt=\"Lilyana N.\">\n        </div>\n        <div class=\"testimonial-body\">\n          <div class=\"quote-bubble\">❞</div>\n          <div class=\"stars\">★★★★★</div>\n          <h3 class=\"testimonial-title\">No Volveré Atrás</h3>\n          <p class=\"testimonial-text\">\n            \"He probado tantos tratamientos diferentes pero todos empeoraban la caída de mi cabello. ¡Este es el único que funcionó!\"\n          </p>\n          <hr class=\"testimonial-divider\">\n          <p class=\"testimonial-author\"><strong>Lilyana N. ~ Cliente verificada</strong></p>\n        </div>\n      </div>\n    </div>\n\n    <!-- Avis 5 -->\n    <div class=\"testimonial-slide\">\n      <div class=\"testimonial-box\">\n        <div class=\"testimonial-img-container\">\n          <img class=\"testimonial-img\" src=\"https://cdn.shopify.com/s/files/1/0681/1290/8348/files/1738031195241-349416627.jpg?v=1751668657\" alt=\"Valeria L.\">\n        </div>\n        <div class=\"testimonial-body\">\n          <div class=\"quote-bubble\">❞</div>\n          <div class=\"stars\">★★★★★</div>\n          <h3 class=\"testimonial-title\">El Único Producto Que Funciona</h3>\n          <p class=\"testimonial-text\">\n            \"Este es el único que realmente hizo la diferencia. Mi cabello se ve más lleno y mi cuero cabelludo ya no está irritado.\"\n          </p>\n          <hr class=\"testimonial-divider\">\n          <p class=\"testimonial-author\"><strong>Valeria L. ~ Cliente verificada</strong></p>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Contrôles -->\n  <div class=\"testimonial-controls\">\n    <span class=\"arrow left\">❮</span>\n    <div class=\"testimonial-dots\">\n      <span class=\"dot active\" data-index=\"0\"></span>\n      <span class=\"dot\" data-index=\"1\"></span>\n      <span class=\"dot\" data-index=\"2\"></span>\n      <span class=\"dot\" data-index=\"3\"></span>\n      <span class=\"dot\" data-index=\"4\"></span>\n    </div>\n    <span class=\"arrow right\">❯</span>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "accordion_content_UnNbj3": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_BbN6DM": {
+          "type": "item",
+          "settings": {
+            "title": "¿Por qué las cápsulas se ven diferentes?",
+            "content": "<p><br/>Los cambios recientes se realizaron en respuesta a comentarios de clientes que solicitaban una cápsula más pequeña y fácil de tragar.<br/><br/>Aunque el aspecto ha cambiado, la fórmula y la calidad siguen siendo exactamente las mismas. Todos los productos continúan fabricándose en instalaciones certificadas bajo estrictos estándares de calidad.</p>",
+            "page": ""
+          }
+        },
+        "item_LRzh8a": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo ayuda esto con el adelgazamiento y la caída del cabello?",
+            "content": "<p>El aceite de semilla de calabaza y el saw palmetto trabajan juntos para mantener un cuero cabelludo sano y mejorar la vitalidad del cabello, lo cual es especialmente beneficioso si estás experimentando adelgazamiento o caída capilar.</p><ul><li>Ayuda a regular la conversión de testosterona en dihidrotestosterona (DHT), una hormona que puede contribuir a la caída del cabello. Al controlar los niveles de DHT, promueve un cabello más fuerte y con más volumen.<br/></li><li>Rico en ácidos grasos esenciales, antioxidantes y vitaminas, nutre el cuero cabelludo y los folículos capilares. Sus propiedades antiinflamatorias crean un entorno óptimo para el crecimiento del cabello al fortalecerlo y reducir la rotura.<br/></li></ul><p>Juntos, estos ingredientes equilibran el entorno hormonal y aportan los nutrientes esenciales que tu cabello necesita para fortalecerse.</p>",
+            "page": ""
+          }
+        },
+        "item_XYccxQ": {
+          "type": "item",
+          "settings": {
+            "title": "¿Qué hace que el aceite de semilla de calabaza sea eficaz para la salud capilar?",
+            "content": "<p>El aceite de semilla de calabaza es eficaz porque aporta una potente combinación de nutrientes directamente al cuero cabelludo y los folículos:</p><ul><li>Contiene ácidos grasos esenciales, vitamina E y antioxidantes que nutren y fortalecen el cabello.<br/></li><li>Los ácidos grasos refuerzan la estructura del cabello, mientras que los antioxidantes lo protegen contra el estrés oxidativo.<br/></li><li>Sus propiedades antiinflamatorias calman el cuero cabelludo y favorecen un entorno sano para el crecimiento capilar.</li></ul>",
+            "page": ""
+          }
+        },
+        "item_F9mzCD": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cuánto tiempo tarda en verse los resultados?",
+            "content": "<p>La mayoría de los usuarios notan mejoras visibles en el grosor y la vitalidad del cabello tras 60 días de uso diario constante. Este período permite que nuestra fórmula nutra el cuero cabelludo y los folículos, favoreciendo un aspecto más saludable y denso.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "item_YWMTGt": {
+          "type": "item",
+          "settings": {
+            "title": "¿De qué están hechas las cápsulas?",
+            "content": "<p><br/>Nuestras cápsulas blandas están elaboradas con ingredientes de alta calidad como gelatina, glicerina, agua purificada y algarroba natural.<br/><br/>No contienen soja, lácteos, gluten ni frutos secos.</p>",
+            "page": ""
+          }
+        },
+        "item_fkTDcB": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo contribuye la DHT a la caída del cabello y cómo lo bloquea este producto?",
+            "content": "<p>La DHT (dihidrotestosterona) es una hormona que se adhiere a los folículos capilares, provocando que se encojan y produzcan cabello más fino y débil.<br/><br/>Nuestro producto bloquea la producción de DHT inhibiendo la enzima 5-alfa reductasa (gracias al saw palmetto), evitando así la conversión de testosterona en DHT.<br/><br/>Además, el aceite de semilla de calabaza aporta nutrientes y antioxidantes para nutrir y proteger el cuero cabelludo.<br/><br/>Esta acción dual combate uno de los factores clave del adelgazamiento capilar y promueve un cabello más fuerte y voluminoso.</p>",
+            "page": ""
+          }
+        },
+        "item_yMFdDg": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo debo tomar las cápsulas y cuál es la dosis diaria?",
+            "content": "<p><br/>Para obtener los mejores beneficios, recomendamos tomar una cápsula al día.<br/><br/>Lo ideal es consumirla con una comida y a la misma hora cada día para establecer una rutina constante.</p>",
+            "page": ""
+          }
+        },
+        "item_fnLhYe": {
+          "type": "item",
+          "settings": {
+            "title": "¿Está probado por USP o por terceros?",
+            "content": "<p>Sí, nuestro producto está probado tanto por la USP como por laboratorios independientes.<br/><br/>Todos los ingredientes naturales se someten a rigurosas pruebas en laboratorios certificados, garantizando los más altos estándares de pureza, potencia y calidad.<br/><br/>Este proceso asegura que nuestros ingredientes funcionen de manera eficaz y segura.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BbN6DM",
+        "item_LRzh8a",
+        "item_XYccxQ",
+        "item_F9mzCD",
+        "item_YWMTGt",
+        "item_fkTDcB",
+        "item_yMFdDg",
+        "item_fnLhYe"
+      ],
+      "custom_css": [],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "¿Tienes preguntas?",
+        "title": "¡Tenemos respuestas!",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_ACa3TF",
+    "related-products",
+    "custom_html_agkhmC",
+    "custom_liquid_xRjiAb",
+    "custom_liquid_Ur6bp9",
+    "custom_liquid_yFCh7W",
+    "custom_liquid_UaD3ey",
+    "custom_liquid_VCVdWN",
+    "custom_html_prUmae",
+    "custom_html_fbhpFr",
+    "accordion_content_UnNbj3"
+  ]
+}
