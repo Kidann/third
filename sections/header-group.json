@@ -1,1 +1,80 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message_GzRLmA":{"type":"message","settings":{"text":"🎄 Offre Spéciale Noël : -70% — Se termine ce soir","url":""}},"message_YhXqaK":{"type":"message","settings":{"text":"STOCKS BIENTÔT ÉPUISÉS","url":""}}},"block_order":["message_GzRLmA","message_YhXqaK"],"settings":{"enable_sticky":false,"autoplay":false,"cycle_speed":6,"text_size":"text-xs","navigation_mode":"scrolling","scrolling_speed":17,"background":"#0e0e0e","background_gradient":"","text_color":"#ffffff"}},"header":{"type":"header","custom_css":["@media screen and (max-width: 749px) {.header__wrapper, .header-mobile-wrapper {padding-top: 10px !important; padding-bottom: 10px !important; margin-top: 0px; margin-bottom: 0px; }}"],"settings":{"enable_sticky":false,"hide_on_scroll":true,"logo":"shopify:\/\/shop_images\/Sans_titre-1_78e9560d-69a9-4df5-a33d-28404ea90c2c.png","logo_max_width":85,"logo_mobile_max_width":95,"menu":"main-menu","sidebar_menu":"","secondary_menu":"","menu_open_trigger":"hover","opening_from":"left","layout":"logo_center_navigation_inline","show_social_media":true,"show_locale_selector":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":true,"background_opacity":100,"background_blur_radius":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_GzRLmA": {
+          "type": "message",
+          "settings": {
+            "text": "✨ Offerta Capodanno: -70% — Termina stasera",
+            "url": ""
+          }
+        },
+        "message_YhXqaK": {
+          "type": "message",
+          "settings": {
+            "text": "SCORTE QUASI ESAURITE",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message_GzRLmA",
+        "message_YhXqaK"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 6,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 17,
+        "background": "#0e0e0e",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.header__wrapper, .header-mobile-wrapper {padding-top: 10px !important; padding-bottom: 10px !important; margin-top: 0px; margin-bottom: 0px; }}"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "hide_on_scroll": true,
+        "logo_max_width": 85,
+        "logo_mobile_max_width": 95,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_center_navigation_inline",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
