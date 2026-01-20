@@ -144,6 +144,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_UVcjgR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .winter-sale-section {\n    width: 100%;\n    max-width: var(--page-width, 120rem);\n    margin: 0 auto;\n    padding: 0;\n  }\n\n  .winter-sale-banner {\n    width: 100%;\n    border-radius: var(--media-container-radius, 1.0rem);\n    overflow: hidden;\n    box-shadow: var(--media-container-shadow, none);\n    margin-bottom: var(--grid-desktop-vertical-spacing, 24px);\n  }\n\n  .winter-sale-banner__image {\n    width: 100%;\n    height: auto;\n    display: block;\n    object-fit: cover;\n  }\n\n  .payment-methods {\n    margin-bottom: 1.6rem;\n  }\n\n  .list-payment {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 6px;\n    padding: 0;\n    margin: 0;\n    list-style: none;\n  }\n\n  .list-payment__item {\n    width: 40px;\n    height: 28px;\n    background: white;\n    border-radius: 4px;\n    box-shadow: 0 0 0 1px rgba(0,0,0,0.05);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex: 0 0 auto;\n  }\n\n  .list-payment__item svg {\n    display: block;\n    width: auto;\n    height: 18px;\n    max-width: 100%;\n    margin: auto;\n  }\n\n  @media (min-width: 768px) {\n    .list-payment {\n      flex-wrap: nowrap;\n      justify-content: center;\n    }\n\n    .list-payment__item {\n      width: 44px;\n      height: 30px;\n    }\n\n    .list-payment__item svg {\n      height: 20px;\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .winter-sale-banner {\n      margin-bottom: var(--grid-mobile-vertical-spacing, 12px);\n      border-radius: calc(var(--media-container-radius, 1.0rem) * 0.8);\n    }\n  }\n</style>\n\n<div class=\"winter-sale-section\">\n  <!-- Bannière Soldes d'Hiver -->\n  <div class=\"winter-sale-banner global-media-settings\">\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/0957/5065/2276/files/hf_20260120_222333_1d9977e7-12ff-4424-bddf-b6dbc81c9c24_1.png?v=1768948045\" \n      alt=\"Soldes d'Hiver - Réduction jusqu'à 50%\" \n      srcset=\"https://cdn.shopify.com/s/files/1/0957/5065/2276/files/hf_20260120_222333_1d9977e7-12ff-4424-bddf-b6dbc81c9c24_1.png?v=1768948045&width=352 352w,\n              https://cdn.shopify.com/s/files/1/0957/5065/2276/files/hf_20260120_222333_1d9977e7-12ff-4424-bddf-b6dbc81c9c24_1.png?v=1768948045&width=832 832w,\n              https://cdn.shopify.com/s/files/1/0957/5065/2276/files/hf_20260120_222333_1d9977e7-12ff-4424-bddf-b6dbc81c9c24_1.png?v=1768948045&width=1100 1100w,\n              https://cdn.shopify.com/s/files/1/0957/5065/2276/files/hf_20260120_222333_1d9977e7-12ff-4424-bddf-b6dbc81c9c24_1.png?v=1768948045&width=1500 1500w\"\n      width=\"1100\" \n      height=\"325\" \n      loading=\"lazy\" \n      class=\"winter-sale-banner__image\"\n    >\n  </div>"
+          }
+        },
         "liquid_HyzVaH": {
           "type": "liquid",
           "settings": {
@@ -164,6 +170,7 @@
         "liquid_BjJQha",
         "liquid_7f68mT",
         "buy_buttons_HMYrfc",
+        "liquid_UVcjgR",
         "liquid_HyzVaH",
         "liquid_iz8Mqd"
       ],
